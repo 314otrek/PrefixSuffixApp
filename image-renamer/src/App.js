@@ -109,21 +109,21 @@ function App() {
             
 
         <div className="flex items-center w-full mt-4">
-          <label className="text-sm font-medium text-gray-700 mr-2 w-20">Prefix:</label>
+          <label className="text-lg font-semibold text-gray-800 mr-2 w-28 text-center">Prefix:</label>
           <input
             type="text"
             placeholder="img_"
-            className="flex-1 border rounded-lg p-2"
+            className="flex-1 border rounded-lg p-2 text-lg"
             value={prefix}
             onChange={(e) => setPrefix(e.target.value)}
           />
         </div>
         <div className="flex items-center w-full mt-4">
-          <label className="text-sm font-medium text-gray-700 mr-2 w-20">Suffix:</label>
+          <label className="text-lg font-semibold text-gray-800 mr-2 w-28 text-center">Suffix:</label>
           <input
             type="text"
             placeholder="_00_"
-            className="flex-1 border rounded-lg p-2"
+            className="flex-1 border rounded-lg p-3 text-lg"
             value={suffix}
             onChange={(e) => setSuffix(e.target.value)}
           />
