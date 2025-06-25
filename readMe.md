@@ -1,15 +1,13 @@
 # 📸 Image Renamer
 
-A modern, browser-based React application for batch renaming image files with custom prefixes and suffixes. Upload multiple images, set your naming convention, and download them individually or as a ZIP archive.
+A modern, browser-based React application for batch renaming image files with custom prefixes and suffixes. Upload multiple images, set your naming convention, and download them as a ZIP archive.
 
 ## 🚀 Features
 
 - **Drag & Drop Upload** - Intuitive file upload with visual feedback
 - **Batch Renaming** - Add custom prefixes and suffixes to multiple files
 - **Live Preview** - See new filenames in real-time as you type
-- **Multiple Download Options**:
-  - Download individual files
-  - Download all files separately
+- **Download Options**:
   - Download as ZIP archive
 - **Smart Extension Handling** - Preserves original file extensions correctly
 - **Image Validation** - Only accepts image file formats
@@ -27,7 +25,7 @@ A modern, browser-based React application for batch renaming image files with cu
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/image-renamer.git
+   git clone https://github.com/314otrek/image-renamer.git
    cd image-renamer
    ```
 
@@ -127,8 +125,6 @@ src/
 
 ### Download System
 
-- Individual file downloads
-- Batch download with delays
 - ZIP archive creation
 - Programmatic link clicking
 - Memory management with URL cleanup
@@ -145,7 +141,6 @@ src/
 - **Responsive Design** - Works on desktop and mobile
 - **Visual Feedback** - Drag states, hover effects, transitions
 - **Intuitive Controls** - Clear labeling and logical flow
-- **Error Prevention** - File type validation, edge case handling
 - **Progressive Enhancement** - Works with JavaScript disabled for basic functionality
 
 ## 🚀 Performance Optimizations
@@ -155,24 +150,11 @@ src/
 - **Efficient Re-renders** - Optimized state updates
 - **File Streaming** - Large file handling without memory issues
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **React Team** - For the amazing framework
 - **Tailwind CSS** - For the utility-first CSS approach
 - **JSZip** - For client-side ZIP functionality
-- **Lucide** - For beautiful, consistent icons
 
 ## 📱 Browser Support
 
@@ -190,7 +172,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Folder structure preservation
 - [ ] Progress indicators for large batches
 - [ ] Image format conversion
-
----
-
-**Made with ❤️ using React and modern web technologies**
